@@ -14,7 +14,8 @@
 }
 
 .work__item {
-    width: 450px;
+    // width: 450px;
+    width: 100%;
     margin: 15px;
 
     @media screen and (min-width: 768px) {
@@ -43,7 +44,8 @@
     position: relative;
     overflow: hidden;
     
-    width: 450px;
+    // width: 450px;
+
     height: 294px;
 
     @media screen and (min-width: 768px) {
@@ -104,7 +106,7 @@
     border: 1px solid #eeeeee;
     border-top: 0px solid transparent;
 
-    width: 450px;
+    max-width: 450px;
     height: 110px;
 
     @media screen and (min-width: 768px) {
