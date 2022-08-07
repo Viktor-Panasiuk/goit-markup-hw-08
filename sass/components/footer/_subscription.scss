@@ -1,9 +1,13 @@
 .subscription-form {
-    margin-right: 0px;
+    // margin-right: 0px;
     width: 100%;
     // margin-left: auto;
     // margin-right: auto;
     padding-top: 60px;
+
+    @media screen and (min-width: 768px) {
+        max-width: 580px;
+    }
 
     @media screen and (max-width: 1199px) {
         display: flex;
@@ -13,7 +17,9 @@
 
     @media screen and (min-width: 1200px) {
         margin-right: 0;
+        margin-left: auto;
         padding-top: 12px;
+        flex-grow: 1;
     }
 }
 
