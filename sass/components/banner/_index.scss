@@ -1,0 +1,71 @@
+/* banner */
+
+.banner {
+    height: 400px;
+
+    text-align: center;
+    background-color: $footer-bgd-color;
+
+    @media screen and (min-width: 1200px)  {
+        height: 600px;
+    }
+}
+
+.banner__overlay {
+    max-width: 480px;
+    height: 400px;
+    padding: 118px 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 480px) {
+        max-width: 768px;
+    }
+
+    @media screen and (min-width: 768px) {
+        max-width: 1200px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        max-width: 1600px;
+        height: 600px;
+        padding: 200px 0;
+    }
+
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/img.jpg');
+    @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/img@2x.jpg');
+    }
+    @media screen and (min-device-pixel-ratio: 3),
+        screen and (min-resolution: 288dpi),
+        screen and (min-resolution: 3dppx) {
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/img@3x.jpg');
+    }
+    
+    
+    background-position: center;
+    background-size: cover;
+    background-color: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+}
+
+.banner__title {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 44px;
+        line-height: 1.36;
+    }
+}
+
+.banner_button {
+    min-width: 200px;
+    padding: 10px 32px;
+}

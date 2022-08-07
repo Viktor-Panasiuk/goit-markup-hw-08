@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <header class="header">
+    
+        <div class="container container--flex header__container">
+            <div class="header__container-1">
+                <a class="logo header__logo" href="./index.html">Web<span class="logo__decor">Studio</span></a>
+                <button type="button" class="header__menu-button mobile-menu__open">
+                    <svg class="header__menu-icon" aria-label="Переключатель меню">
+                        <use href="./images/icons.svg#icon-menu"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="header__container-2">
+                <nav class="nav header__nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="./index.html">Студия</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link nav__link--active" href="./portfolio.html">Портфолио</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="nav-contact">
+                    <li class="nav-contact__item">
+                        <a class="nav-contact__link" href="mailto:info@devstudio.com">
+                            <svg class="nav-contact__icon">
+                                <use href="./images/icons.svg#icon-envelope"></use>
+                            </svg>
+    
+                            info@devstudio.com
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-contact__link" href="tel:+380961111111">
+                            <svg class="nav-contact__icon">
+                                <use href="./images/icons.svg#icon-smartphone"></use>
+                            </svg>
+                            +38 096 111 11 11
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+    </header>
+
+    <main>
+        <section class="section">
+            <!--Filter of works-->
+            <div class="container">
+                <ul class="filter">
+                    <li class="filter__item">
+                        <button class="filter__button" type="button">Все</button>
+                    </li>
+                    <li class="filter__item">
+                        <button class="filter__button" type="button">Вeб-сайты</button>
+                    </li>
+                    <li class="filter__item">
+                        <button class="filter__button" type="button">Приложения</button>
+                    </li>
+                    <li class="filter__item">
+                        <button class="filter__button" type="button">Дизайн</button>
+                    </li>
+                    <li class="filter__item">
+                        <button class="filter__button" type="button">Маркетинг</button>
+                    </li>
+                </ul>
+            </div>
+            
+            <!--Works-->
+            <div class="container work">
+                <ul class="grid work__grid">
+                    <li class="work__item">
+                        <a class="work__link" href="">
+                            <div class="work__thumb">
+                                <img
+                                    class="work__img"
+                                    srcset="
+                                        ./images/img0.jpg 370w,
+                                        ./images/img0@2x.jpg 740w,
+                                        ./images/img0@3x.jpg 1110w
+                                    "
+                                    src="./images/img0.jpg"
+                                    alt="Технокряк"
+                                    sizes="(min-width: 1200px) 25vw, (min-width: 768px) 40vw, (min-width: 480px) 90vw"
+                                >
+                                <div class="work__overlay">
+                                    <p class="work__text">
+                                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                                        исчерпывающие сведения о компании или частном лице
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="work__meta">
+                                <h2 class="work__title">
+                                    Технокряк
+                                </h2>
+                                <p class="work__type">
+                                    Веб-сайт
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="work__item">
+                        <a class="work__link" href="">
+                            <div class="work__thumb">
+                                <img
+                                    class="work__img"
+                                    srcset="
+                                        ./images/img1.jpg 370w,
+                                        ./images/img1@2x.jpg 740w,
+                                        ./images/img1@3x.jpg 1110w
+                                    "
+                                    src="./images/img1.jpg"
+                                    alt="Технокряк"
+                                    sizes="(min-width: 1200px) 25vw, (min-width: 768px) 40vw, (min-width: 480px) 90vw"
+                                >
+                                <div class="work__overlay">
+                                    <p class="work__text">
+                                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит
+                                        посетителю получить
+                                        исчерпывающие сведения о компании или частном лице
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="work__meta">
+                                <h2 class="work__title">
+                                    Постер New Orlean vs Golden Star
+                                </h2>
+                                <p class="work__type">
+                                    Дизайн
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="work__item">
+                        <a class="work__link" href="">
+                            <div class="work__thumb">
+                                <img
+                                    class="work__img"
+                                    srcset="
+                                        ./images/img2.jpg 370w,
+                                        ./images/img2@2x.jpg 740w,
+                                        ./images/img2@3x.jpg 1110w
+                                    "
+                                    src="./images/img2.jpg"
+                                    alt="Технокряк"
+                                    sizes="(min-width: 1200px) 25vw, (min-width: 768px) 40vw, (min-width: 480px) 90vw"
+                                >
+                                <div class="work__overlay">
+                                    <p class="work__text">
+                                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                                        исчерпывающие сведения о компании или частном лице
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="work__meta">
+                                <h2 class="work__title">
+                                    Ресторан Seafood
+                                </h2>
+                                <p class="work__type">
+                                    Приложение
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="work__item">
+                        <a class="work__link" href="">
+                            <div class="work__thumb">
+                                <img
+                                    class="work__img"
+                                    srcset="
+                                        ./images/img3.jpg 370w,
+                                        ./images/img3@2x.jpg 740w,
+                                        ./images/img3@3x.jpg 1110w
+                                    "
+                                    src="./images/img3.jpg"
+                                    alt="Технокряк"
+                                    sizes="(min-width: 1200px) 25vw, (min-width: 768px) 40vw, (min-width: 480px) 90vw"
+                                >
+                                <div class="work__overlay">
+                                    <p class="work__text">
+                                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                                        исчерпывающие сведения о компании или частном лице
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="work__meta">
+                                <h2 class="work__title">
+                                    Проект Prime
+                                </h2>
+                                <p class="work__type">
+                                    Маркетинг
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="work__item">
+                        <a class="work__link" href="">
+                            <div class="work__thumb">
+                                <img
+                                    class="work__img"
+                                    srcset="
+                                        ./images/img4.jpg 370w,
+                                        ./images/img4@2x.jpg 740w,
+                                        ./images/img4@3x.jpg 1110w
+                                    "
+                                    src="./images/img4.jpg"
+                                    alt="Технокряк"
+                                    sizes="(min-width: 1200px) 25vw, (min-width: 768px) 40vw, (min-width: 480px) 90vw"
+                                >
+                                <div class="work__overlay">
+                                    <p class="work__text">
+                                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                                        исчерпывающие сведения о компании или частном лице
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="work__meta">
+                                <h2 class="work__title">
+                                    Проект Boxes
+                                </h2>
+                                <p class="work__type">
+                                    Приложение
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="work__item">
+                        <a class="work__link" href="">
+                            <div class="work__thumb">
+                                <img
+                                    class="work__img"
+                                    srcset="
+                                        ./images/img5.jpg 370w,
+                                        ./images/img5@2x.jpg 740w,
+                                        ./images/img5@3x.jpg 1110w
+                                    "
+                                    src="./images/img5.jpg"
+                                    alt="Технокряк"
+                                    sizes="(min-width: 1200px) 25vw, (min-width: 768px) 40vw, (min-width: 480px) 90vw"
+                                >
+                                <div class="work__overlay">
+                                    <p class="work__text">
+                                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                                        исчерпывающие сведения о компании или частном лице
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="work__meta">
+                                <h2 class="work__title">
+                                    Inspiration has no Borders
+                                </h2>
+                                <p class="work__type">
+                                    Веб-сайт
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="work__item">
+                        <a class="work__link" href="">
+                            <div class="work__thumb">
+                                <img
+                                    class="work__img"
+                                    srcset="
+                                        ./images/img6.jpg 370w,
+                                        ./images/img6@2x.jpg 740w,
+                                        ./images/img6@3x.jpg 1110w
+                                    "
+                                    src="./images/img6.jpg"
+                                    alt="Технокряк"
+                                    sizes="(min-width: 1200px) 25vw, (min-width: 768px) 40vw, (min-width: 480px) 90vw"
+                                >
+                                <div class="work__overlay">
+                                    <p class="work__text">
+                                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                                        исчерпывающие сведения о компании или частном лице
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="work__meta">
+                                <h2 class="work__title">
+                                    Издание Limited Edition
+                                </h2>
+                                <p class="work__type">
+                                    Веб-сайт
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="work__item">
+                        <a class="work__link" href="">
+                            <div class="work__thumb">
+                                <img
+                                    class="work__img"
+                                    srcset="
+                                        ./images/img7.jpg 370w,
+                                        ./images/img7@2x.jpg 740w,
+                                        ./images/img7@3x.jpg 1110w
+                                    "
+                                    src="./images/img7.jpg"
+                                    alt="Технокряк"
+                                    sizes="(min-width: 1200px) 25vw, (min-width: 768px) 40vw, (min-width: 480px) 90vw"
+                                >
+                                <div class="work__overlay">
+                                    <p class="work__text">
+                                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                                        исчерпывающие сведения о компании или частном лице
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="work__meta">
+                                <h2 class="work__title">
+                                    Проект LAB
+                                </h2>
+                                <p class="work__type">
+                                    Маркетинг
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="work__item">
+                        <a class="work__link" href="">
+                            <div class="work__thumb">
+                                <img
+                                    class="work__img"
+                                    srcset="
+                                        ./images/img8.jpg 370w,
+                                        ./images/img8@2x.jpg 740w,
+                                        ./images/img8@3x.jpg 1110w
+                                    "
+                                    src="./images/img8.jpg"
+                                    alt="Технокряк"
+                                    sizes="(min-width: 1200px) 25vw, (min-width: 768px) 40vw, (min-width: 480px) 90vw"
+                                >
+                                <div class="work__overlay">
+                                    <p class="work__text">
+                                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                                        исчерпывающие сведения о компании или частном лице
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="work__meta">
+                                <h2 class="work__title">
+                                    Growing Business
+                                </h2>
+                                <p class="work__type">
+                                    Приложение
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__block-address">
+                <a class="logo footer__logo" href="./index.html">Web<span class="footer__logo-decor">Studio</span></a>
+                <address class="footer__box-address">
+                    <p class="footer__address">
+                        г. Киев, пр-т Леси Украинки, 26
+                    </p>
+                    <a class="footer__mail" href="mailto:info@example.com">info@example.com</a>
+                    <a class="footer__tel" href="tel:+380991111111">+38 099 111 11 11</a>
+                </address>
+            </div>
+            <div class="join">
+                <h3 class="join__title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+                <ul class="grid join__list">
+                    <li class="join__item">
+                        <a href="" class="join__link">
+                            <svg class="join__icon">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="join__item">
+                        <a href="" class="join__link">
+                            <svg class="join__icon">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="join__item">
+                        <a href="" class="join__link">
+                            <svg class="join__icon">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="join__item">
+                        <a href="" class="join__link">
+                            <svg class="join__icon">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <form class="subscription-form">
+                <label for="email" class="subscription-form__title">Подпишитесь на рассылку</label>
+                <input type="email" name="email" id="email" placeholder="E-mail" class="subscription-form__input">
+                <button type="submit" class="button subscription-form__button">
+                    Подписаться
+                    <svg class="subscription-form__icon">
+                        <use href="./images/icons.svg#icon-send"></use>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </footer>
+
+        <!-- Мобільне меню -->
+        <div mobile-menu class="mobile-menu">
+            <button mobile-menu-close type="button" class="mobile-menu__close">
+                <svg class="header__menu-icon" aria-label="Закрыть меню">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+
+            <ul class="mobile-nav">
+                <li class="mobile-nav__item">
+                    <a href="./index.html" class="nav__link mobile-nav__link">
+                        Студия
+                    </a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="./portfolio.html" class="nav__link mobile-nav__link">
+                        Портфолио
+                    </a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="" class="nav__link mobile-nav__link">
+                        Контакты
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="mobile-contact">
+                <li class="mobile-contact__item">
+                    <a href="tel:+38 096 111 11 11" class="nav-contact__link mobile-contact__link--tel">
+                        +38 096 111 11 11
+                    </a>
+                </li>
+                <li class="mobile-contact__item">
+                    <a href="mailto:info@devstudio.com" class="nav-contact__link mobile-contact__link">
+                        info@devstudio.com
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="mobile-social">
+                <li class="mobile-social__item">
+                    <a class="mobile-social__link" href="">
+                        Instagram
+                    </a>
+                </li>
+                <li class="mobile-social__item">
+                    <a class="mobile-social__link" href="">
+                        Twitter
+                    </a>
+                </li>
+                <li class="mobile-social__item">
+                    <a class="mobile-social__link" href="">
+                        Facebook
+                    </a>
+                </li>
+                <li class="mobile-social__item">
+                    <a class="mobile-social__link" href="">
+                        LinkedIn
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous">
+        </script>
+
+
+        <script defer src="./js/mobile-menu.js">
+        </script>
+</body>
+</html>

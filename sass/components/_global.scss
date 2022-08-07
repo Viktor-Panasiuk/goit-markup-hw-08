@@ -1,0 +1,33 @@
+/* Global styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+    color: $doc-text-color;
+    background-color: $doc-bgd-color;
+}
+
+ul {
+    padding-inline-start: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+p {
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}

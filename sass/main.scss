@@ -1,0 +1,27 @@
+@import 'utils/normalize';
+@import 'utils/vars';
+
+@import 'components/global';
+@import 'components/container';
+@import 'components/section';
+@import 'components/logo';
+@import 'components/button';
+
+@import 'components/header/index';
+@import 'components/header/nav';
+@import 'components/header/mobile-menu';
+
+@import 'components/banner/index';
+
+@import 'components/main/advantage';
+@import 'components/main/present';
+@import 'components/main/team';
+@import 'components/main/client';
+@import 'components/main/filter';
+@import 'components/main//works';
+
+@import 'components/footer/index';
+@import 'components/footer/join';
+@import 'components/footer/subscription';
+
+@import 'components/registration_form/index';
